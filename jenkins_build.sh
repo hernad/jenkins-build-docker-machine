@@ -22,5 +22,10 @@ if [ $? != 0 ] ; then
    exit 1
 fi
 
-mv bin/*.exe ..
+
+echo "mv bin/docker-machine-Windows-i386.exe .."
+mv bin/docker-machine-Windows-i386.exe ..
+
+echo "mv bin/docker-machine-Windows-x86_64.exe .."
+mv bin/docker-machine-Windows-x86_64.exe ..
 
